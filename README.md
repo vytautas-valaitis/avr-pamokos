@@ -11,7 +11,7 @@ https://en.wikipedia.org/wiki/Intel_HEX
 `avr-gcc -mmcu=atmega328p -nostartfiles blink.S`  
 # 2. C programavimas (\*.c failams)
 `avr-gcc -mmcu=atmega328p -Os -DF_CPU=16000000 blink.c`  
-# 3. programos įkėlimas (iš 2 arba 3 žingsnių)
+# 3. programos įkėlimas (iš 1 arba 2 žingsnių)
 `avr-objcopy -O ihex a.out main.hex`  
 `avrdude -p m328p -c usbasp -U flash:w:main.hex` (naudojant USBASP)  
 `avrdude -p m328p -c avrisp -P /dev/ttyACM0 -b 19200 -U flash:w:main.hex` (naudojant Arduino kaip programatorių)  
