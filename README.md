@@ -1,5 +1,5 @@
 # avr pamokos
-viešoji įstaiga "Robotikos mokykla" kursui  
+viešoji įstaiga "Robotikos mokykla"  
 2021 m.  
 # 0. Nuorodos
 https://circuitscheme.com/wp-content/uploads/2011/06/arduino-uno-schematic.jpg  
